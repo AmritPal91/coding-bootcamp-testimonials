@@ -174,7 +174,7 @@
         width: 20px;
     }
 }
-@media screen and (min-width:525px) and (max-width:767px) {
+@media screen and (min-width:525px) and (max-width:850px) {
      .container {
 
         background: url("images/pattern-curve.svg") no-repeat left bottom,
