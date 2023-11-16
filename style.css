@@ -174,7 +174,33 @@
         width: 20px;
     }
 }
+@media screen and (min-width:525px) and (max-width:767px) {
+     .container {
 
+        background: url("images/pattern-curve.svg") no-repeat left bottom,
+            url("images/pattern-quotes.svg") no-repeat 25% 33.5%;
+        background-size: 45% 18%, 8% 11%;
+    }
+    .sec2 {
+        transform: scale(0.4);
+        justify-content: center;        
+        margin-right: 5%; 
+    }
+    .sec2 .imgOne {
+    margin-left: -6%;
+}
+    .sec1 #testimonial {
+         font-size: 12px;
+   z-index:1;
+}
+    .name {
+        margin: 52% 0 0 29%;
+    }
+     .button_wrapper {
+        top: 140%;
+        left: -32%;
+    }
+}
 @media screen and (min-width:1024px) and (max-width:1439px) {
 
 
